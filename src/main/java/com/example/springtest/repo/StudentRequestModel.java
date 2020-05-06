@@ -10,9 +10,14 @@ public class StudentRequestModel {
     public String id;
 
     public String imputName;
-
     public StudentRequestModel(HelloStudentRequest request) {
         this.imputName = request.getInputName();
     }
+
+//    public HelloStudentRequest imputName;
+//    public StudentRequestModel(HelloStudentRequest request) {
+//        this.imputName = request;
+//    }
+
 
 }
