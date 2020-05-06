@@ -15,11 +15,4 @@ public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
-
-//    public void run(String... args) throws Exception {
-//
-//        repository.save(new Customer("Alice", "Smith"));
-//
-//    }
-
 }
